@@ -6,10 +6,21 @@
 
 h1{
     text-align: center;
-    font-size: 200%;
+    font-size: 200px;
     color: red;
 }
 h2{
     text-align: center;
     color: rgb(88, 87, 87);
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.card{
+    border: 1px;
 }

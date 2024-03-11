@@ -19,8 +19,10 @@
         $numero_series = count($series);
         $contador = 0;
         while($contador < $numero_series){
+            echo "<div class='card'>"
             echo "<img  src='$capas[$contador]'>";
-            echo "<br> $series[$contador] <br><br>";
+            echo "<br> $series[$contador]";
+            echo "</div>"
 
             $contador++;
         }
