@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catalogo de Séries</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     
@@ -19,10 +20,10 @@
         $numero_series = count($series);
         $contador = 0;
         while($contador < $numero_series){
-            echo "<div class='card'>"
+            echo "<div class='card'>";
             echo "<img  src='$capas[$contador]'>";
             echo "<br> $series[$contador]";
-            echo "</div>"
+            echo "</div>";
 
             $contador++;
         }

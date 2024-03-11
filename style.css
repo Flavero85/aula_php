@@ -1,5 +1,5 @@
 .lista img{
-    width: 250px;
+    width: 150px;
     height: 200px;
     object-fit: cover;
 }
@@ -22,5 +22,8 @@ h2{
 }
 
 .card{
-    border: 1px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'segoe UI';
 }
